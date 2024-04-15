@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe api</title>
+    <link rel="stylesheet" href="Css/style.css">
+    <script src="https://kit.fontawesome.com/0404d19321.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Css/Contact.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navfix">
+            <header><h1><i class="fa-solid fa-utensils"></i> Recipe Search</h1></header>
+            <div class="navlinks">
+                <a href="index.html">Home</a>
+                <a href="About.html">About</a>
+                <a href="Bookmark.html">Bookmark</a>
+                <a href="Contact.html">Contact</a>
+                <a href="Signin.html" class="sign-in">Sign in <i class="fa-solid fa-arrow-right-to-bracket"></i></a>
+            </div>
+            <i class="fa-solid fa-bars"></i>
+            <span class="uservalue"></span>
+        </div>
+    </nav>
+    
+    <!-- section -->
+        <section class="contactForm">
+            <div class="box">
+                <h3>Contact us</h3>
+                <form action="https://formspree.io/f/meqypdqj" method="POST">
+                    <input type="text" placeholder="your name..." name="name" required>
+                    <input type="text" placeholder="your email..." name="email" required>
+                    <textarea id="fq" cols="30" rows="10" placeholder="write your message..." name="message" required></textarea>
+                    <button type="submit" class="submit">Send</button>
+                </form>
+            </div>
+        </section>
+    <!-- section -->
+
+    <script src="js/navlinks.js"></script>
+    <script src="js/username.js"></script>
+</body>
+</html>

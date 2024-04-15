@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.contactForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.contactForm .box{
+    padding: 20px;
+    background-color: #fff;
+    width: 400px;
+    border-radius: 5px;
+}
+
+.contactForm .box:hover{
+    box-shadow: 0px 2px 8px 2px gray;
+}
+
+.contactForm .box h3{
+    text-align: center;
+    color: #d96900;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.contactForm .box form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contactForm .box form input{
+    padding: 5px 10px;
+    font-size: 15px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.contactForm .box form textarea{
+    padding: 5px 10px;
+    font-size: 15px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid gray;
+    resize: none;
+}
+
+.contactForm .box form button{
+    background-color: #d96900;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:450px){
+    .contactForm{
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width:380px){
+    .contactForm .box{
+        width: 350px;
+    }
+}
+
+
+@media screen and (max-width:330px){
+    .contactForm .box{
+        width: 300px;
+    }
+}
